@@ -1,0 +1,40 @@
+html {
+  background-image: url(https://chinese.freecodecamp.org/news/content/images/size/w2000/2022/10/jonatan-pie-3l3RwQdHRHg-unsplash.jpeg);
+  background-size: cover;
+  
+  color: white;
+}
+
+h1, p {
+  text-align: center;
+  color: #ffffff;
+}
+
+form {
+  background-color: #00003370;
+  width: 60%;
+  margin: auto;
+}
+input, select {
+  width: 80%;
+  height: 30px;
+}
+
+label[name="nl"],input {
+  display: block;
+}
+
+.inline {
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  display: inline;
+}
+input[id="check"] {
+  width: 10%;
+  height: 20px;
+  display: inline;
+}
+label[id="check"] {
+  display: block
+}
