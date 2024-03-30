@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="cn">
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+ <head>
+  <title>家庭资产配置情况调查问卷</title>
+ </head>
+ <body>
+  <h1 id="title">家庭资产配置情况调查问卷</h1>
+  <p id="description">为了后续的定制化财富管理方案，请您如实填写以下问题，关于的个人信息我们不会用于其他用途。</p>
+  <form id="survey-form" method="post" action='https://register-demo.freecodecamp.org'>
+   <fieldset>
+    <p>个人基本信息</p>
+    <label id="name-label">姓名<input type="text" id="name" placeholder="name" required></label>
+    <labal name="性别">性别</label>
+    <label><input type="radio" value="1" name="xb" class="inline">男</label>
+    <label><input type="radio" value="2" name="xb" class="inline">女</label>
+    <label name="nl" id="number-label">年龄<input id="number" type="number" min="18" max="120" placeholder="age" required></label>
+    <label>电话<input type="tel" placeholder="tel" ></label>
+    <label id="email-label">邮箱<input type="email" id="email" placeholder="email" required></label>
+   </fieldset>
+   <fieldset>
+    <p>家庭信息</p>
+    <label>您目前从事的职业：</label>
+    <select id="dropdown">
+      <option>请选择您的职业</option>
+      <option>公务员</option>
+      <option>事业编</option>
+      <option>国企</option>
+      <option>民企</option>
+      <option>自由职业</option>
+    </select>
+   </fieldset>
+   
+   <fieldset  id="check">
+     <p>您现在持有的资产类型：</p>
+       <label id="check"><input type="checkbox" value="1" id="check">现金及活期存款</label>
+       <label id="check"><input type="checkbox" value="2" id="check">定期存款</label>
+       <label id="check"><input type="checkbox" value="3" id="check">债券</label>
+       <label id="check"><input type="checkbox" value="4" id="check">基金</label>
+       <label id="check"><input type="checkbox" value="5" id="check">股票</label>
+       <label id="check"><input type="checkbox" value="6" id="check">期权期货</label>
+       <label id="check"><input type="checkbox" value="7" id="check">黄金</label>
+     
+   </fieldset>
+   <label>您对我们的财富管理方案又什么期待？</label>
+   <textarea rows="4"> </textarea>
+     <input type="submit" id="submit">
+  </form>
+ </body>
+</html>
